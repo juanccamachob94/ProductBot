@@ -53,7 +53,7 @@ const init = async () => {
   if (currentPrice <= MAX_EXPECTED_PRICE)
     notify(currentPrice);
   else
-    logger.log({ level: 'info', message: 'Price unnaccepted' }); 
+    logger.log({ level: 'info', message: 'Price rejected' }); 
 }
 
 init();
